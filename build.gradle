@@ -13,6 +13,7 @@ java {
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven { url = uri('https://repo.essentialsx.net/releases/') }
     maven { url = uri('https://oss.sonatype.org/content/groups/public') }
     maven { url = uri('https://hub.spigotmc.org/nexus/content/repositories/snapshots/') }
